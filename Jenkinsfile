@@ -4,7 +4,7 @@
 // A push to master that changes the version file tags the commit and
 // publishes the gem. createRelease does the same on demand.
 
-@Library('sailpoint/jenkins-release-utils')_
+@Library('sailpoint/jenkins-release-utils@CIPLT-954-template-jfrog')_
 
 rubyGemTemplate([
     team                : 'nerm',
@@ -13,5 +13,5 @@ rubyGemTemplate([
     versionConstantFile : 'lib/pry-nav/version.rb',
     enableRedis         : false,
     configureArtifactory: false,
-    releaseBranches     : ['master','CIPLT-954-template-jfrog'],
+    releaseBranches     : ['master'],
 ])
