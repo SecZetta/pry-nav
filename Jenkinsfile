@@ -14,5 +14,6 @@ rubyGemTemplate([
     enableRedis         : false,
     configureArtifactory: false,
     publishGpr          : false,
+    artifactoryGemHosts : 'https://sailpoint.jfrog.io/artifactory/api/gems/sp-gems-prod-local',
     releaseBranches     : ['master','CIPLT-954-template-jfrog'],
 ])
