@@ -13,5 +13,6 @@ rubyGemTemplate([
     versionConstantFile : 'lib/pry-nav/version.rb',
     enableRedis         : false,
     configureArtifactory: false,
+    publishGpr          : false,
     releaseBranches     : ['master','CIPLT-954-template-jfrog'],
 ])
